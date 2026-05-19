@@ -1,0 +1,17 @@
+/* Auth Pages Styles (Login & Signup) */
+.auth-page {
+  padding: 100px 2rem 3rem; min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+}
+.auth-card {
+  width: 100%; max-width: 420px; background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 2.5rem 2rem;
+}
+.auth-card h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 0.3rem; }
+.auth-subtitle { color: rgba(255,255,255,0.5); font-size: 0.9rem; margin-bottom: 1.5rem; }
+.auth-btn { width: 100%; margin-top: 0.5rem; justify-content: center; }
+.auth-link {
+  text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: rgba(255,255,255,0.5);
+}
+.auth-link a { color: #a78bfa; text-decoration: none; font-weight: 600; }
+.auth-link a:hover { text-decoration: underline; }
